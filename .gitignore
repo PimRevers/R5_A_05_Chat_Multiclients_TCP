@@ -1,0 +1,37 @@
+# Fichiers objets et bibliothèques
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+
+# Fichiers d'en-tête précompilés et dépendances
+*.gch
+*.pch
+*.d
+
+# Fichiers exécutables courants
+*.out
+*.exe
+*.app
+
+# Exécutables spécifiques au projet
+clientTCP_FINAL
+serveurTCP_FINAL
+
+# Fichiers de debug et logs
+core
+vgcore.*
+*.dSYM/
+*.log
+
+# Fichiers temporaires des éditeurs / OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
