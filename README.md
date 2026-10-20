@@ -31,7 +31,7 @@ Le projet a été développé et testé sous **WSL** (*Windows Subsystem for Lin
 
 ---
 
-## 🛠️ Compilation
+## Compilation
 
 Pour compiler le code source, ouvrez un terminal Linux (ou WSL) dans le dossier du projet et utilisez le compilateur `gcc` avec l'option `-Wall` (qui active les avertissements pour vérifier la qualité du code).
 
