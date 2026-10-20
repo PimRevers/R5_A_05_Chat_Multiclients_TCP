@@ -4,7 +4,7 @@ Ce projet implémente un système de messagerie instantanée (tchat) multi-clien
 
 ---
 
-## 📌 Fonctionnalités implémentées
+## Fonctionnalités implémentées
 
 * **Chat multi-clients en temps réel** : plusieurs clients peuvent se connecter simultanément au serveur et échanger des messages.
 * **Diffusion (Broadcast)** : lorsqu'un client envoie un message, le serveur le redistribue automatiquement à tous les autres clients connectés.
@@ -17,7 +17,7 @@ Ce projet implémente un système de messagerie instantanée (tchat) multi-clien
 
 ---
 
-## ⚠️ Fonctionnalités non implémentées
+## Fonctionnalités non implémentées
 
 Dans le cadre de cette version du projet :
 * **Pas de gestion des channels / salons** : tous les utilisateurs échangent dans un salon unique sur un seul port. Le choix et la création dynamique de canaux associés à des ports distincts n'ont pas été réalisés.
@@ -25,7 +25,7 @@ Dans le cadre de cette version du projet :
 
 ---
 
-## 💻 Environnement de développement
+## Environnement de développement
 
 Le projet a été développé et testé sous **WSL** (*Windows Subsystem for Linux*), une machine virtuelle Linux intégrée sous Windows, avec les outils standards GCC et POSIX.
 
@@ -52,7 +52,7 @@ Ces commandes génèrent les deux fichiers exécutables compilés :
 
 ---
 
-## 🚀 Utilisation / Exécution
+## Utilisation / Exécution
 
 Pour lancer les programmes, il suffit d'écrire le nom du fichier exécutable précédé de `./` dans le terminal.
 
