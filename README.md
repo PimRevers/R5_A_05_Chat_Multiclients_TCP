@@ -21,7 +21,7 @@ Ce projet implémente un système de messagerie instantanée (tchat) multi-clien
 
 Dans le cadre de cette version du projet :
 * **Pas de gestion des channels / salons** : tous les utilisateurs échangent dans un salon unique sur un seul port. Le choix et la création dynamique de canaux associés à des ports distincts n'ont pas été réalisés.
-* **Pas de gestion de pseudos (noms d'utilisateurs)** : les messages sont diffusés sous la forme brute reçue (sans identifiant ou préfixe de pseudo pour l'émetteur).
+* **Pas de gestion de pseudos (noms d'utilisateurs)** : les messages sont diffusés sous la forme brute reçue (sans identifiant ou de pseudo pour l'émetteur du message).
 
 ---
 
