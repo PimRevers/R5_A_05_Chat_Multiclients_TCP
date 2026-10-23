@@ -20,8 +20,8 @@ Ce projet implémente un système de messagerie instantanée (tchat) multi-clien
 ## Fonctionnalités non implémentées
 
 Dans le cadre de cette version du projet :
-* **Pas de gestion des channels / salons** : tous les utilisateurs échangent dans un salon unique sur un seul port. Le choix et la création dynamique de canaux associés à des ports distincts n'ont pas été réalisés.
-* **Pas de gestion de pseudos (noms d'utilisateurs)** : les messages sont diffusés sous la forme brute reçue (sans identifiant ou de pseudo pour l'émetteur du message).
+* **Pas de gestion des channels / salons** : tous les utilisateurs échangent dans un salon unique sur un seul port. Le choix et la création dynamique de canaux associés à des ports distincts n'ont pas été réalisés. Mais je pense que pour le mettre en place, il ne faudrais pas mettre un port par défaut mais avoir une variable PORT et quand le client va se connecter (via la commande ./clientTCP 64000), le serveur va créer un fork pour le port 64000 en le récupérant avec arg[2] et ainsi de suite pour les autres port demandé
+* **Pas de gestion de pseudos (noms d'utilisateurs)** : les messages sont diffusés sous la forme brute reçue (sans identifiant ou de pseudo pour l'émetteur du message). Pour cela, je pense qu'il faut que lors de la connexion d'un client, un champ de texte apparaît lui demandant de mettre un pseudo qui sera enregistré dans une variabel et ce pseudo va être automatiquement placé devant le message du client via une concaténation lors du write.
 
 ---
 
